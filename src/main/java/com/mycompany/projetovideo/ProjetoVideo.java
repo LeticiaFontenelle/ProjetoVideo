@@ -20,11 +20,11 @@ public class ProjetoVideo {
          f[3]= new Formigaluna ("Batel", 1, "F", "Teo"); 
          
          Visualizacao vis[] = new Visualizacao[5];
-         vis[0] = new Visualizacao(f[0], v[2]); // Ahava assite Estatística
+         vis[0] = new Visualizacao(f[0], v[2]); // Ahava assisti Estatística
          vis[0].avaliar();
          System.out.println(vis[1].toString());
          
-         vis[1] = new Visualizacao(f[0], v[1]); // Ahava assite Economia
+         vis[1] = new Visualizacao(f[0], v[1]); // Ahava assisti Economia
          vis[0].avaliar(87.0f);
          System.out.println(vis[1].toString());
          
